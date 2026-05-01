@@ -1,0 +1,26 @@
+.todoList{
+    .back{
+        margin: 0 1em;
+        padding: 1em;
+        float: left;
+    }
+
+    .item {
+        border: 1px solid lightgray;
+        padding: 1em;
+        margin: 1em;
+        cursor: pointer;
+        display: flex;
+    }
+
+    .label {
+        margin-left: 1ex;
+    }
+
+    .checked {
+        .label {
+            text-decoration: line-through;
+            color: lightgray;
+        }
+    }
+}
